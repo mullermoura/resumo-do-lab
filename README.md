@@ -24,7 +24,18 @@ Armazenamento: Soluções de armazenamento em nuvem. Exemplo: Blob Storage e Dis
 
 Importância da Computação em Nuvem: Discutimos o papel estratégico da computação em nuvem, suas vantagens e como ela está transformando a maneira como empresas e desenvolvedores criam e gerenciam soluções. Pilares abordados: escalabilidade, flexibilidade, redução de custos e alta disponibilidade.
 
-Aula 2: Criação de Máquinas Virtuais no Azure
+Aula 2: Benefícios da Nuvem Azure
+
+Nesta aula, abordamos os principais benefícios oferecidos pela nuvem Azure, divididos em diferentes tópicos:
+
+Escalabilidade e Elasticidade: Exploramos como o Azure permite que os recursos sejam escalados automaticamente com base na demanda, ajustando para cima ou para baixo conforme necessário.
+
+Confiabilidade, Previsibilidade e Segurança: Discutimos como a nuvem Azure garante alta disponibilidade, segurança avançada e previsibilidade de desempenho através de seus SLAs e ferramentas integradas.
+
+Governança e Gerenciabilidade: Abordamos como o Azure oferece ferramentas de governança para garantir conformidade, controle e gerenciamento eficiente de recursos na nuvem.
+
+
+Aula 3: Criação de Máquinas Virtuais no Azure
 
 Criação de Máquinas Virtuais: Exploramos o processo de criação de máquinas virtuais no Azure, desde a escolha da imagem até as configurações de hardware e rede.
 

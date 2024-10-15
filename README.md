@@ -43,3 +43,25 @@ SLA e Níveis de Indisponibilidade: Discutimos o Acordo de Nível de Serviço (S
 
 Zonas de Disponibilidade: Entendemos como as Zonas de Disponibilidade afetam a resiliência das VMs e como podemos distribuir recursos para melhorar a redundância e alta disponibilidade.
 
+Com base na imagem, o tema da Aula 4 será "Tipos de Serviço de Nuvem na Azure". A aula inclui os seguintes tópicos:
+
+1. IaaS, PaaS e SaaS na Azure: Aborda os três principais modelos de serviço de nuvem — Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS) — e como eles são implementados no Azure.
+
+
+2. Modelo de Responsabilidade Compartilhada: Explica como o Azure e os usuários compartilham responsabilidades relacionadas à segurança, gerenciamento e manutenção de dados e serviços.
+
+Aula 4: Tipos de Serviço de Nuvem na Azure
+
+Nesta aula, aprendemos sobre os principais tipos de serviços de nuvem oferecidos pela Azure e como cada um deles se aplica em diferentes cenários:
+
+IaaS, PaaS e SaaS na Azure: Discutimos os três modelos de serviço de nuvem, onde cada um oferece diferentes níveis de controle e responsabilidade para os usuários.
+
+IaaS: Infraestrutura como Serviço, que oferece controle total sobre a infraestrutura de TI.
+
+PaaS: Plataforma como Serviço, que fornece uma plataforma gerenciada para o desenvolvimento e implantação de aplicações.
+
+SaaS: Software como Serviço, onde o Azure gerencia totalmente o aplicativo e a infraestrutura.
+
+
+Modelo de Responsabilidade Compartilhada: Abordamos como a responsabilidade pela segurança e gerenciamento de dados e infraestrutura é dividida entre o cliente e a Microsoft Azure, dependendo do tipo de serviço (IaaS, PaaS ou SaaS).
+

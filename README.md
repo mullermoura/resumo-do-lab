@@ -78,8 +78,55 @@ Componentes de Arquitetura do Azure: Aprendemos que a arquitetura do Azure é co
 
 Entendendo Pares de Região e Grupos de Recursos: Um dos conceitos mais importantes que estudamos foi o de pares de região. Entendemos que cada região do Azure está emparelhada com outra em uma localização geográfica distante para garantir recuperação de desastres e alta disponibilidade. Isso garante que, se uma região sofrer uma interrupção, a outra pode assumir suas funções. Também exploramos a criação e a organização de grupos de recursos, que são usados para gerenciar e organizar os ativos relacionados de uma solução, como VMs, redes e bases de dados.
 
-Criação de Grupo de Recursos: MM_Azure_AZ: Durante o lab prático, criamos um grupo de recursos chamado MM_Azure_AZ, o que nos deu uma experiência prática em como os grupos de recursos são fundamentais para gerenciar, organizar e aplicar políticas a um conjunto de recursos interconectados no Azure. Esse grupo serviu como uma estrutura para organizar e centralizar os serviços e recursos, tornando a gestão mais eficiente e permitindo monitoramento mais fácil.
+Aula 5: Computação e Rede no Azure
 
-Criação de uma Rede Virtual: Dentro do grupo de recursos MM_Azure_AZ, também configuramos uma rede virtual (Virtual Network), que é essencial para permitir a comunicação segura entre os diferentes recursos e serviços no Azure. A rede virtual criada permite a interconexão de máquinas virtuais e outros recursos de rede de forma isolada e segura, simulando um ambiente de rede local dentro da nuvem.
+Na última aula, exploramos as principais tecnologias de computação e rede oferecidas pelo Azure, com foco em como esses serviços podem ser usados para construir e gerenciar ambientes na nuvem de forma eficiente e escalável. Aqui estão os tópicos abordados:
 
-Assinatura da Azure e Grupos de Gerenciamento: Discutimos como funcionam as assinaturas do Azure, que são a base para o uso e a cobrança dos serviços. Aprendemos como uma assinatura permite acesso a uma vasta gama de serviços, sendo essencial para rastrear o uso e os custos. Também estudamos os grupos de gerenciamento, que facilitam o controle de várias assinaturas de forma centralizada, permitindo que as organizações apliquem políticas e controles de acesso em várias camadas, organizando os recursos de maneira eficiente e segura em grande escala.
+- Serviços de Computação e Máquinas Virtuais do Azure: 
+  Discutimos os serviços de computação do Azure, com destaque para as Máquinas Virtuais (VMs), que permitem rodar sistemas operacionais completos na nuvem. As VMs são essenciais para hospedar aplicativos, testar novos sistemas e expandir a capacidade computacional conforme necessário.
+
+- Conjuntos de Disponibilidade de Máquinas Virtuais: 
+  Aprendemos sobre os Conjuntos de Disponibilidade, que ajudam a proteger suas VMs contra falhas de hardware no datacenter. Eles garantem que as VMs estejam distribuídas em diferentes racks, evitando interrupções em caso de problemas físicos.
+
+- Área de Trabalho Virtual e Contêineres no Azure: 
+  Exploramos o Azure Virtual Desktop, uma solução que permite configurar desktops virtuais acessíveis de qualquer lugar. Também vimos como os contêineres ajudam a executar aplicações em ambientes isolados e portáteis, trazendo mais flexibilidade e escalabilidade.
+
+- Azure Functions e Serviços de Aplicativo do Azure: 
+  Falamos sobre o Azure Functions, que oferece uma abordagem serverless, permitindo executar código sob demanda sem precisar gerenciar servidores. Além disso, discutimos os App Services, que facilitam o desenvolvimento, hospedagem e escalabilidade de aplicativos web e APIs.
+
+- Azure Kubernetes Service (AKS): 
+  Por fim, discutimos o Azure Kubernetes Service (AKS), uma solução para gerenciar contêineres em grande escala. O AKS facilita a implantação e o gerenciamento de aplicações baseadas em Kubernetes, proporcionando automação, balanceamento de carga, atualizações contínuas e segurança para arquiteturas de microserviços.
+
+Configurando Recursos e Dimensionamento de Máquinas Virtuais no Azure
+
+Na parte prática, aprendemos a configurar e dimensionar máquinas virtuais no Azure. Aqui está um guia simples de como fizemos isso:
+
+Criando uma Máquina Virtual no Azure
+
+1. Acesse o portal do Azure.
+2. No menu lateral, clique em Máquinas Virtuais e depois em Criar.
+3. Preencha os campos principais, como Grupo de Recursos, Nome da VM e Região.
+4. Escolha o sistema operacional (Linux, Windows, etc.) e selecione o Tamanho da VM. Existem diferentes opções dependendo do tipo de workload que você precisa, como:
+   - Série B: Ideal para cargas de trabalho mais leves e intermitentes.
+   - Série D: Balanceada para uso geral.
+   - Série F: Para demandas intensivas de CPU.
+5. Crie as credenciais de login (usuário e senha).
+
+Configurando a Rede
+
+1. Escolha ou crie uma Rede Virtual para conectar sua VM.
+2. Defina as regras de segurança, como permitir acesso RDP (Windows) ou SSH (Linux).
+3. Se precisar, configure um IP Público para acessar a máquina remotamente.
+
+Dimensionando a Máquina Virtual
+
+1. Com a VM criada, você pode ajustá-la conforme a necessidade. Basta acessar a VM e selecionar Redimensionar.
+   - Para escalar verticalmente, você pode aumentar ou diminuir os recursos de CPU e memória da VM.
+   - Para escalar horizontalmente, é possível criar várias instâncias da mesma VM para distribuir a carga e aumentar a disponibilidade.
+2. Selecione o novo tamanho e aplique as alterações. O processo pode causar uma breve interrupção enquanto as mudanças são feitas.
+
+Monitorando a Máquina Virtual
+
+1. Acesse a aba Métricas para monitorar o desempenho da VM (uso de CPU, memória e rede).
+2. Com base nesses dados, você pode ajustar os recursos para garantir um uso eficiente e otimizar custos.
+

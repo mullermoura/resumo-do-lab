@@ -130,3 +130,50 @@ Monitorando a Máquina Virtual
 1. Acesse a aba Métricas para monitorar o desempenho da VM (uso de CPU, memória e rede).
 2. Com base nesses dados, você pode ajustar os recursos para garantir um uso eficiente e otimizar custos.
 
+
+Aula 6: 
+Módulo: Armazenamento e Migração no Azure
+
+Neste módulo, exploramos os principais serviços de armazenamento oferecidos pela plataforma Azure e suas funcionalidades. Discutimos as diversas opções de armazenamento, suas camadas e os diferentes tipos de redundância que garantem a segurança e a disponibilidade dos dados.
+
+Serviços de Armazenamento do Azure:
+
+- Azure Blob Storage: Otimizado para armazenar grandes quantidades de dados não estruturados, como texto e arquivos binários.
+  Exemplo: Armazenar backups diários de uma aplicação web em blobs, garantindo recuperação rápida e eficiente.
+
+- Azure Disk Storage: Fornece discos para máquinas virtuais e aplicativos, garantindo desempenho consistente para operações intensivas de leitura e gravação.
+  Exemplo: Utilizar discos premium para melhorar o desempenho de uma base de dados SQL que demanda alta velocidade de leitura.
+
+- Azure Files: Oferece compartilhamentos de arquivos de rede acessíveis via protocolo SMB (Server Message Block), permitindo a integração entre soluções locais e na nuvem.
+  Exemplo: Compartilhar arquivos entre diferentes departamentos de uma empresa, acessando-os diretamente pela rede, sem a necessidade de mover dados entre servidores locais e a nuvem.
+
+
+Redundância de Armazenamento:
+Explicamos as diferentes opções de redundância que garantem alta disponibilidade e proteção de dados, como:
+
+- LRS (Locally Redundant Storage): Armazena várias cópias dos dados dentro de um único datacenter.
+  Exemplo: Armazenar registros de log de uma aplicação com alta frequência de gravação, mas que não requerem redundância geográfica.
+
+- GRS (Geo-Redundant Storage): Replica os dados em regiões geograficamente distantes para maior resiliência em caso de desastres.
+  Exemplo: Armazenar informações críticas de clientes em GRS para garantir recuperação mesmo em caso de falha total de um datacenter.
+
+
+Ferramentas de Migração:
+Exploramos várias opções para migração de dados, como:
+
+- AzCopy: Um utilitário de linha de comando que permite copiar dados entre contas de armazenamento de forma rápida e eficiente.
+  Exemplo: Migrar dados de backups de um servidor local para o Azure Blob Storage usando o AzCopy.
+
+- Azure Data Box: Uma solução para migração de grandes volumes de dados (até 80 TB), usada quando há pouca ou nenhuma conectividade de rede disponível. Ele protege os dados durante o transporte físico.
+  Exemplo: Utilizar o Azure Data Box para mover grandes quantidades de vídeos e imagens de um escritório remoto sem boa conexão com a internet.
+
+
+Gerenciamento de Arquivos:
+
+- Gerenciador de Armazenamento do Azure: Uma interface gráfica que facilita a navegação e o gerenciamento de arquivos, com compatibilidade para Windows, MacOS e Linux.
+  Exemplo: Usar o Gerenciador de Armazenamento para organizar arquivos e verificar o status de contêineres no Azure Blob sem necessidade de usar a linha de comando.
+
+- Sincronização de Arquivos do Azure: Sincroniza arquivos entre a nuvem e ambientes locais, permitindo manter os arquivos mais acessados localmente enquanto otimiza o armazenamento em nuvem.
+  Exemplo: Sincronizar arquivos de projetos de engenharia entre servidores locais e o Azure, permitindo que engenheiros acessem rapidamente arquivos críticos enquanto mantêm backups na nuvem.
+
+Este módulo também abordou as migrações para o Azure, incluindo o uso de ferramentas integradas que facilitam a avaliação e migração de dados de forma eficiente, garantindo conformidade e atendendo a necessidades regulatórias.

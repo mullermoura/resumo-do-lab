@@ -1,7 +1,7 @@
-# resumo-do-lab
+# # # Resumo-do-lab AZ90 - Microsoft Azure
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
 
-Aula 1: Introdução ao Azure
+# Aula 1: Introdução ao Azure
 
 Nesta aula, aprendemos a acessar o portal do Microsoft Azure e exploramos suas principais funcionalidades. Além disso, configuramos a aparência do portal, alteramos idiomas e navegamos pelos serviços oferecidos pela plataforma.
 
@@ -24,7 +24,7 @@ Armazenamento: Soluções de armazenamento em nuvem. Exemplo: Blob Storage e Dis
 
 Importância da Computação em Nuvem: Discutimos o papel estratégico da computação em nuvem, suas vantagens e como ela está transformando a maneira como empresas e desenvolvedores criam e gerenciam soluções. Pilares abordados: escalabilidade, flexibilidade, redução de custos e alta disponibilidade.
 
-Aula 2: Benefícios da Nuvem Azure
+# Aula 2: Benefícios da Nuvem Azure
 
 Nesta aula, abordamos os principais benefícios oferecidos pela nuvem Azure, divididos em diferentes tópicos:
 
@@ -35,7 +35,7 @@ Confiabilidade, Previsibilidade e Segurança: Discutimos como a nuvem Azure gara
 Governança e Gerenciabilidade: Abordamos como o Azure oferece ferramentas de governança para garantir conformidade, controle e gerenciamento eficiente de recursos na nuvem.
 
 
-Aula 3: Criação de Máquinas Virtuais no Azure
+# Aula 3: Criação de Máquinas Virtuais no Azure
 
 Criação de Máquinas Virtuais: Exploramos o processo de criação de máquinas virtuais no Azure, desde a escolha da imagem até as configurações de hardware e rede.
 
@@ -43,14 +43,8 @@ SLA e Níveis de Indisponibilidade: Discutimos o Acordo de Nível de Serviço (S
 
 Zonas de Disponibilidade: Entendemos como as Zonas de Disponibilidade afetam a resiliência das VMs e como podemos distribuir recursos para melhorar a redundância e alta disponibilidade.
 
-Com base na imagem, o tema da Aula 4 será "Tipos de Serviço de Nuvem na Azure". A aula inclui os seguintes tópicos:
 
-1. IaaS, PaaS e SaaS na Azure: Aborda os três principais modelos de serviço de nuvem — Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS) — e como eles são implementados no Azure.
-
-
-2. Modelo de Responsabilidade Compartilhada: Explica como o Azure e os usuários compartilham responsabilidades relacionadas à segurança, gerenciamento e manutenção de dados e serviços.
-
-Aula 4: Tipos de Serviço de Nuvem na Azure
+# Aula 4: Tipos de Serviço de Nuvem na Azure
 
 Nesta aula, aprendemos sobre os principais tipos de serviços de nuvem oferecidos pela Azure e como cada um deles se aplica em diferentes cenários:
 
@@ -66,7 +60,7 @@ SaaS: Software como Serviço, onde o Azure gerencia totalmente o aplicativo e a 
 Modelo de Responsabilidade Compartilhada: Abordamos como a responsabilidade pela segurança e gerenciamento de dados e infraestrutura é dividida entre o cliente e a Microsoft Azure, dependendo do tipo de serviço (IaaS, PaaS ou SaaS).
 
 
-Aula 5. Arquitetura e serviços Azure
+# Aula 5: Arquitetura e serviços Azure
 
 Nesta unidade, tivemos a oportunidade de explorar os datacenters da Microsoft a partir de um tour virtual, o que nos permitiu conhecer de forma mais interativa a infraestrutura física que sustenta a plataforma de nuvem Azure. Vimos como esses datacenters são altamente seguros, escaláveis e projetados para oferecer alta disponibilidade e redundância, com foco em inovação e sustentabilidade.
 
@@ -78,7 +72,7 @@ Componentes de Arquitetura do Azure: Aprendemos que a arquitetura do Azure é co
 
 Entendendo Pares de Região e Grupos de Recursos: Um dos conceitos mais importantes que estudamos foi o de pares de região. Entendemos que cada região do Azure está emparelhada com outra em uma localização geográfica distante para garantir recuperação de desastres e alta disponibilidade. Isso garante que, se uma região sofrer uma interrupção, a outra pode assumir suas funções. Também exploramos a criação e a organização de grupos de recursos, que são usados para gerenciar e organizar os ativos relacionados de uma solução, como VMs, redes e bases de dados.
 
-Aula 5: Computação e Rede no Azure
+# Aula 6: Computação e Rede no Azure
 
 Na última aula, exploramos as principais tecnologias de computação e rede oferecidas pelo Azure, com foco em como esses serviços podem ser usados para construir e gerenciar ambientes na nuvem de forma eficiente e escalável. Aqui estão os tópicos abordados:
 
@@ -131,8 +125,7 @@ Monitorando a Máquina Virtual
 2. Com base nesses dados, você pode ajustar os recursos para garantir um uso eficiente e otimizar custos.
 
 
-Aula 6: 
-Módulo: Armazenamento e Migração no Azure
+# Aula 7: Armazenamento e Migração no Azure
 
 Neste módulo, exploramos os principais serviços de armazenamento oferecidos pela plataforma Azure e suas funcionalidades. Discutimos as diversas opções de armazenamento, suas camadas e os diferentes tipos de redundância que garantem a segurança e a disponibilidade dos dados.
 
@@ -177,3 +170,30 @@ Gerenciamento de Arquivos:
   Exemplo: Sincronizar arquivos de projetos de engenharia entre servidores locais e o Azure, permitindo que engenheiros acessem rapidamente arquivos críticos enquanto mantêm backups na nuvem.
 
 Este módulo também abordou as migrações para o Azure, incluindo o uso de ferramentas integradas que facilitam a avaliação e migração de dados de forma eficiente, garantindo conformidade e atendendo a necessidades regulatórias.
+
+# Aula 8: Identidade, Acesso e Segurança no Azure
+
+Neste módulo, discutimos os principais serviços de identidade, acesso e segurança no Azure, essenciais para proteger dados e recursos. Exploramos os conceitos fundamentais para garantir a segurança e controle de acesso na nuvem.
+
+- Microsoft Entra ID: O serviço de gerenciamento de identidades baseado em nuvem do Azure, anteriormente conhecido como Azure Active Directory. Ele permite gerenciar identidades de usuários e controlar o acesso a recursos na nuvem, com suporte para autenticação de logon único (SSO), autenticação multifator (MFA) e gerenciamento de dispositivos.
+  Exemplo: Usar o Microsoft Entra ID para autenticar funcionários que acessam recursos corporativos de forma segura, evitando a necessidade de gerenciar senhas locais.
+
+- Microsoft Entra Domain Services: Fornece serviços de domínio na nuvem sem a necessidade de gerenciar controladores de domínio. Isso permite executar aplicativos legados que ainda dependem de autenticação baseada em domínio.
+  Exemplo: Migrar um sistema de ERP legado para a nuvem enquanto mantém o controle de autenticação tradicional via domínio.
+
+- Autenticação e Autorização: A autenticação identifica usuários ou serviços, solicitando credenciais para garantir o acesso legítimo, enquanto a autorização define o que esses usuários podem fazer após a autenticação.
+  Exemplo: Um funcionário se autentica com credenciais corporativas (autenticação) e tem acesso apenas ao seu departamento específico de arquivos (autorização).
+
+- Acesso Condicional: Uma ferramenta que permite aplicar políticas de acesso baseadas em sinais, como localização do IP, grupo de usuários, dispositivo e outros fatores de risco.
+  Exemplo: Restringir o acesso de usuários a partir de localizações geográficas incomuns ou dispositivos desconhecidos.
+
+- Controle de Acesso Baseado em Função (RBAC): Uma forma de gerenciar permissões granulares, concedendo aos usuários somente o nível de acesso necessário para realizar suas tarefas.
+  Exemplo: Um desenvolvedor pode ter acesso completo a máquinas virtuais para desenvolvimento, mas acesso limitado a dados sensíveis de clientes.
+
+- Modelo de Confiança Zero: Este conceito parte do princípio de que nenhuma identidade, dispositivo ou rede é confiável por padrão. Tudo deve ser verificado e autenticado a cada etapa, garantindo segurança contínua.
+  Exemplo: A aplicação de políticas de Confiança Zero impede que usuários autenticados acessem recursos sem validação adicional.
+
+- Microsoft Defender para Nuvem: Um serviço de monitoramento que fornece proteção contra ameaças em ambientes de nuvem e datacenters locais. Ele oferece recomendações de segurança, detecta e bloqueia malwares e outros ataques, e garante o controle de acesso com o just-in-time (JIT), que permite a liberação temporária de portas de rede.
+  Exemplo: O Defender alerta sobre vulnerabilidades nas configurações de segurança e sugere correções automáticas para proteger os recursos da nuvem.
+
+

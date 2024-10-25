@@ -1,4 +1,4 @@
-# # # Resumo-do-lab AZ90 - Microsoft Azure
+# # # Resumo-do-lab AZ900 - Microsoft Azure
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
 
 # Aula 1: Introdução ao Azure

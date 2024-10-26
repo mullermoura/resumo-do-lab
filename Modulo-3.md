@@ -83,3 +83,22 @@ No módulo, são abordadas várias ferramentas que facilitam a interação com o
 ### 4. Bicep
 O **Bicep** é uma linguagem declarativa para a implementação de recursos no Azure, oferecendo uma sintaxe simplificada em relação aos modelos ARM JSON tradicionais, visando facilitar a criação de infraestrutura como código.
 
+
+## Assistente do Azure
+
+O **Assistente do Azure** é uma ferramenta que ajuda os usuários a gerenciar seus recursos na nuvem de maneira eficaz. Ele fornece recomendações personalizadas, sugestões de otimização e facilita a configuração e a monitorização de serviços. O Assistente é projetado para simplificar a gestão do ambiente do Azure, permitindo que os usuários aproveitem ao máximo suas implementações na nuvem.
+
+## Integridade do Serviço do Azure
+
+A **Integridade do Serviço do Azure** é um serviço que fornece informações sobre o status e a disponibilidade dos serviços do Azure. Ele permite que os usuários verifiquem se há interrupções, degradações de desempenho ou manutenção programada que possam afetar seus serviços. Com isso, os usuários podem monitorar a saúde dos serviços e tomar decisões informadas sobre suas aplicações e recursos.
+
+## Azure Monitor
+
+O **Azure Monitor** é uma solução abrangente de monitoramento que fornece uma visão unificada do desempenho e da integridade de seus aplicativos e recursos no Azure. Ele inclui várias ferramentas e funcionalidades, como:
+
+- **Azure Log Analytics**: Permite coletar e analisar dados de logs e métricas em tempo real, ajudando a identificar problemas e otimizar o desempenho.
+
+- **Alertas do Azure Monitor**: Ferramenta que permite configurar alertas baseados em métricas e logs, notificando os usuários sobre eventos críticos e anomalias no desempenho de seus serviços.
+
+- **Application Insights**: Uma funcionalidade que fornece monitoramento de desempenho de aplicativos, permitindo que os desenvolvedores entendam como os usuários interagem com suas aplicações e identifiquem problemas de desempenho em tempo real.
+

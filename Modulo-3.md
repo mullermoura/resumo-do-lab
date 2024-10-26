@@ -54,6 +54,32 @@ O **bloqueio de recursos** no Azure permite proteger recursos específicos de al
 
 Você pode aplicar um bloqueio de recurso usando o **Azure Portal**, **CLI** ou **PowerShell**. Um bloqueio é definido no nível do recurso ou grupo de recursos e se aplica a todos os recursos contidos.
 
-```bash
-# Exemplo de comando para aplicar um bloqueio usando Azure CLI
-az resource lock create --name <lock-name> --resource-group <resource-group-name> --resource-name <resource-name> --resource-type <resource-type> --lock-type CanNotDelete
+
+# AZ-900: Introdução aos Conceitos Básicos do Microsoft Azure
+
+## Visão Geral
+
+Este repositório contém materiais e recursos destinados ao estudo do módulo de **Gerenciamento e Governança** do curso AZ-900, que faz parte da certificação Microsoft Azure Fundamentals. O objetivo principal deste módulo é fornecer uma visão geral das ferramentas e serviços de gerenciamento oferecidos pelo Azure, incluindo a configuração, monitoramento e governança de recursos em um ambiente de nuvem.
+
+## Conteúdos Abordados
+
+### 1. Azure Resource Manager (ARM)
+O **Azure Resource Manager (ARM)** é a camada de gerenciamento fundamental para o Azure, permitindo que usuários criem, atualizem e excluam recursos em uma assinatura do Azure. Os principais conceitos incluem:
+- **Modelos ARM**: Arquivos JSON que facilitam a criação e a implantação de infraestrutura no Azure, promovendo consistência e escalabilidade.
+- **Infraestrutura como Código**: Provisão de ambientes padronizados com configurações e builds reutilizáveis.
+- **Vantagens**: Resultados repetíveis, orquestração modular e validação integrada, possibilitando uma gestão centralizada e eficiente.
+
+### 2. Azure Arc
+O **Azure Arc** expande o gerenciamento e governança do Azure para infraestruturas externas, incluindo ambientes locais e outras nuvens, permitindo:
+- **Gerenciamento Consistente**: Aplicação de políticas e configurações em todos os recursos de forma uniforme.
+- **Governança Multinuvem**: Controle e visibilidade aprimorados para cargas de trabalho híbridas.
+
+### 3. Ferramentas de Implantação e Gerenciamento
+No módulo, são abordadas várias ferramentas que facilitam a interação com os recursos do Azure:
+- **Portal do Azure**: Interface gráfica para gerenciamento de recursos e serviços do Azure.
+- **Azure PowerShell e CLI**: Ferramentas de linha de comando para automatizar e gerenciar recursos.
+- **Azure Cloud Shell**: Shell interativo acessível diretamente do portal, integrando CLI e PowerShell.
+
+### 4. Bicep
+O **Bicep** é uma linguagem declarativa para a implementação de recursos no Azure, oferecendo uma sintaxe simplificada em relação aos modelos ARM JSON tradicionais, visando facilitar a criação de infraestrutura como código.
+

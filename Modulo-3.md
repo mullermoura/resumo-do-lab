@@ -21,3 +21,39 @@ Este repositório contém os principais conteúdos abordados no módulo de **Ger
 
 ### 4. Prática e Aplicação
 - **Hands-On**: Exercícios práticos para consolidar o aprendizado de gerenciamento e governança dentro do ambiente Azure.
+
+
+
+
+# Azure Resource Management
+
+Este repositório contém informações sobre a gestão de recursos no Azure, abordando os conceitos de **Azure Policy**, **bloqueio de recursos**, **Azure Purview** e **Azure Managed Identity**.
+
+## Azure Policy
+
+O **Azure Policy** é um serviço que ajuda a impor regras e efeitos em recursos do Azure. Ele permite que as organizações governem seu ambiente de nuvem ao garantir que os recursos estejam em conformidade com as diretrizes corporativas. Com o Azure Policy, você pode:
+
+- **Definir e aplicar políticas**: Crie políticas para restringir ou permitir ações específicas em recursos do Azure.
+- **Auditar a conformidade**: Monitore recursos para garantir que eles atendam às diretrizes estabelecidas.
+- **Ações automatizadas**: Aplique ações corretivas automaticamente quando um recurso não estiver em conformidade.
+
+### Exemplos de Políticas
+
+- Restringir a criação de recursos em regiões específicas.
+- Garantir que todos os recursos tenham tags apropriadas.
+- Impedir a utilização de tipos de recursos não permitidos.
+
+## Bloqueio de Recursos
+
+O **bloqueio de recursos** no Azure permite proteger recursos específicos de alterações acidentais ou exclusões. Existem dois tipos de bloqueios:
+
+- **Não permitir exclusão**: Impede que um recurso seja excluído.
+- **Não permitir alteração**: Impede que um recurso seja modificado.
+
+### Como Configurar um Bloqueio
+
+Você pode aplicar um bloqueio de recurso usando o **Azure Portal**, **CLI** ou **PowerShell**. Um bloqueio é definido no nível do recurso ou grupo de recursos e se aplica a todos os recursos contidos.
+
+```bash
+# Exemplo de comando para aplicar um bloqueio usando Azure CLI
+az resource lock create --name <lock-name> --resource-group <resource-group-name> --resource-name <resource-name> --resource-type <resource-type> --lock-type CanNotDelete
